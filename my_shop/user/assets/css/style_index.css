@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Karma:wght@400;500;700&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img_4{
+    height: calc(100vh - 56px);
+}
+.fa_lang{
+    font-size:30px;
+    margin-right:30px;
+}
+
+.nav_logo{
+   
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Karma', serif;
+    font-weight: 800;
+  
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+main{
+   margin-top: 80px;
+}
+
+.div1{
+    width: 100%;
+    background-color:rgba(253, 245, 230, 0.3) ;
+
+}
+.div2{
+    background-color:rgba(253, 245, 230, 0.1)!important; 
+    padding-top: 30px;
+}
+iframe{
+    border-radius: 8px;
+}
+p{
+    line-height: 50px;
+}
+h1{
+    margin-bottom: 30px;
+    color: #4B2947;
+}
+.nav_menu_a{    
+    font-size: 25px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+hr{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.section_program_icon{
+    width: 100%;
+    background-color:white;
+
+}
+.p_footer{
+    line-height: 30px;
+}
+footer{
+    background-color: #F8F9FA;
+    padding: 50px 20px 50px 30px;
+}
+.fa_foot{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.foot_2{
+    margin-left: 60px;
+}
+h6{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.h1_main{
+    color:black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.foot_fin{
+    margin-left: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.a_foot{
+    color: black;
+}
+.div_carusel{
+    margin-bottom: 80px;
+}
+.img_prog ul {
+    
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+flex-wrap: wrap;
+}
+
+.img_prog div{
+    margin-top: 100px;
+}
+.main_row_card{
+margin-bottom: 100px;
+}
+.wrapper{
+    /* background-color:#A9AEBA; */
+    background-color: white;
+}
+.btn_mx{
+    /* margin-left: 120px; */
+    /* text-align: center; */
+    /* margin-top: 5px; */
+    margin-left: 130px;
+}
+.img_prog{
+    margin-bottom: 100px;
+}
+.card_img{
+    transition: 1.2s;
+    opacity: 0.7;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card_body:hover .card_img{
+
+    transform: scale(1.1);
+    opacity: 1;
+    }
+    
+
+
+
+@media only screen and (min-width: 1340px) {
+    .wrapper {
+        max-width: 1310px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .card_body_main {
+       margin: auto;
+    }
+    iframe{
+        width: 100%;
+    }
+}

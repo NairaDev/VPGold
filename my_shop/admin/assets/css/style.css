@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /* border: 1px solid; */
+}
+form{
+    min-height: 200px;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    line-height: 40px;
+    border-radius: 8px;
+}
